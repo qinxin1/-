@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		
+		<style type="text/css">
+			
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			html{
+				font-size: 62.5%;
+			}
+			#div1{
+				width: 100%;
+				background: #F8F8F8;
+				display: flex;
+				justify-content: space-around;
+			}
+			#div1 span{
+				width: 15%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			#div1 #inp{
+				width: 50%;
+			}
+			#div img{
+				width: 60%;
+			}
+			#div2{
+				width: 100%;
+				padding: 1.3rem 10%;
+			}
+			#div2 img{
+				width: 80%;
+			}
+			
+			#div3{
+				width: 100%;
+				display: flex;
+			}
+			#div3 div img{
+				width: 93%;
+			}
+			
+			@media screen and (min-width: 320px)  {
+				#div4{
+				width: 100%;
+				display: flex;
+			}
+			#div4 div{
+				width: 100%;
+				display: flex;
+				align-items: center;
+				border: 1px solid red;
+				padding: 0.5rem;
+			}
+			#div4 div img{
+				width: 30%;
+			}
+			}
+			@media screen and (min-width: 320px){
+				#div3{
+					justify-content: space-around;
+					flex-wrap: wrap;
+				}
+				#div3 div{
+					width: 50%;
+					display: flex;
+					justify-content: space-around;
+				}
+				
+				#div4{
+					flex-wrap: wrap;
+				}
+				#div4 div{
+					width: 100%;
+					display: flex;
+				}
+			}
+			@media screen and (min-width: 500px) {
+				#div3{
+					justify-content: space-around;
+				}
+				#div3 div{
+					width: 20%;
+					padding: 1rem;
+				}
+				#div4 div{
+					width: 45%;
+					justify-content: space-between;
+				}
+			}
+		
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			<span><img src="img/logo.png"/></span>
+			
+				<input type="text" id="inp" placeholder="Search Products"/>
+				<img src="img/icon_21.png"/>
+			
+			<span>
+				<img src="img/icon_02.png"/>
+			</span>
+		</div>
+		<div id="div2">
+			<img src="img/pic_home_slider_1.jpg"/>
+		</div>
+		
+		<div id="div3">
+			<div>
+				<img src="img/1144be5d311b6b4716a12e7340602f75.png"/>
+			</div>
+			<div>
+				<img src="img/1144be5d311b6b4716a12e7340602f75.png"/>
+			</div>
+			<div>
+				<img src="img/1144be5d311b6b4716a12e7340602f75.png"/>
+			</div>
+			<div>
+				<img src="img/1144be5d311b6b4716a12e7340602f75.png"/>
+			</div>
+		</div>
+		<div id="div4">
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+			<div>
+				<img src="img/img_06.jpg"/>
+				<span>
+					askldjak
+				</span>
+			</div>
+		</div>
+	</body>	
+</html>
