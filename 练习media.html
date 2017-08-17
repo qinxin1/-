@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+
+			
+			.wrap{
+				width: 100%;
+				display: flex;
+				justify-content: space-around;	
+			}
+			.wrap .div{
+					height: 100px;
+					border: 1px solid red;
+									
+				}
+			@media screen and(min-width: 800px;){
+				.div{
+					width: 15%;			
+				}
+			}
+			@media screen and (min-width: 400px) and (max-width: 800px) {
+				.wrap{
+					flex-wrap: wrap;
+				}
+				.wrap .div{
+					width: 30%;
+					margin-bottom: 20px;
+				}
+			}
+			@media screen and (max-width: 400px){
+				.wrap{
+					flex-wrap: wrap;
+				}
+				.wrap .div{
+					
+					width: 90%;
+					margin-bottom: 20px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+		<div class="div">
+			1
+		</div>
+		<div class="div">
+			2
+		</div>
+		<div class="div">
+			3
+		</div>
+		<div class="div">
+			4
+		</div>
+		<div class="div">
+			5
+		</div>
+		<div class="div">
+			6
+		</div>
+		</div>
+	</body>
+</html>
